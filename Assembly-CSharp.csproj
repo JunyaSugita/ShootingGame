@@ -56,9 +56,11 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Shot.cs" />
     <Compile Include="Assets\PlayerMove.cs" />
     <Compile Include="Assets\Bullet.cs" />
-    <Compile Include="Assets\Shot.cs" />
+    <Compile Include="Assets\Enemy.cs" />
+    <Compile Include="Assets\GManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
